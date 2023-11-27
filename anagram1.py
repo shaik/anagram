@@ -52,7 +52,7 @@ def find_anagrams(phrase, sorted_words_dict):
     return list(single_word_anagrams), list(two_word_anagrams), search_time
 
 if __name__ == "__main__":
-    file_path = "words.txt"  # Update with your file path
+    file_path = "data/words.txt"  # Update with your file path
     phrase = input("Enter a phrase to find anagrams: ").strip()
 
     if not phrase:
